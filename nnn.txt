@@ -1,0 +1,11 @@
+import math 
+x = 0.2
+approx_value = 1+x+(x**2)/2
+exact_value = math.exp(x)
+absolute_error = abs(exact_value-approx_value)
+persentage_error = (absolute_error*100)/abs(exact_value)
+
+print(approx_value)
+print(exact_value)
+print(absolute_error)
+print(persentage_error)
